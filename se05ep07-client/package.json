@@ -16,8 +16,10 @@
     "vueify": "^9.4.1"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "vue": "^2.5.13",
-    "vue-material": "^0.8.1"
+    "vue-material": "^0.8.1",
+    "vue-router": "^3.0.1"
   },
   "browserify": {
     "transform": [
