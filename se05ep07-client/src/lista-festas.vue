@@ -13,7 +13,7 @@
 <script>
 const axios = require("axios");
 const api = axios.create({
-  baseURL: "htto://127.0.0.1:3000"
+  baseURL: "http://127.0.0.1:3000"
 });
 module.exports = {
   name: "ListaFestas",
