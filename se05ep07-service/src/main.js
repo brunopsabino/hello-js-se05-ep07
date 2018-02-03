@@ -13,6 +13,7 @@ app.use(bodyParser.json())
 
 app.use("/festa",require("./festa").router)
 // exercício: crie o convidado.js pra dar require aqui
+app.use("/convidado",require("./convidado").router)
 
 knex.migrate.latest().then(_ => {
   app.listen(3000, _ => {
