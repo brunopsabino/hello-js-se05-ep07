@@ -11,8 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "^15.2.0",
-    "budo": "^11.0.1"
+    "budo": "^11.0.1",
+    "vueify": "^9.4.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-material": "^0.8.1"
+  },
   "description": ""
 }
