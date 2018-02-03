@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "browserify src/main.js -o build.js"
+    "build": "browserify src/main.js -o build.js",
+    "dev": "budo src/main.js:build.js -o -l"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^15.2.0"
+    "browserify": "^15.2.0",
+    "budo": "^11.0.1"
   },
   "dependencies": {},
   "description": ""
