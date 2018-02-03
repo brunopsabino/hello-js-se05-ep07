@@ -18,5 +18,10 @@
     "vue": "^2.5.13",
     "vue-material": "^0.8.1"
   },
+  "browserify":{
+    "transform":[
+      "vueify"
+    ]
+  },
   "description": ""
 }
